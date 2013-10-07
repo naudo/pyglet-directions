@@ -45,7 +45,6 @@ Q. Why do I need homebrew?
 
 A. Homebrew is a package manager. Other sane operating systems (read Linux, not windows) already have ways of distrubuting modules of code / applications.  Homebrew is one attempt at bringing this functionality to the mac (ie fink / macports are other ones). Have you ever downloaded / installed something only to have it tell you that you need to install something else first? Package managers are a way for the computer to figure all that out for you. 
 
-Q. Homebrew sounds pretty cool. Tell me more!
 
 
 ### 4. Installing extras through homebrew
@@ -54,13 +53,18 @@ Q. Homebrew sounds pretty cool. Tell me more!
 brew install hg
 ````
 
+Q. What is `hg`?
+
+A. Hg is also known as mecurial, which is a similar tool to git that the pyglet developers chose to use instead.
+
 ### 5. installing pyglet through hg
 
 ````bash
 hg clone https://pyglet.googlecode.com/hg/ && cd hg && sudo python setup.py install
 ````
 
-In the cannonical documentation fashion, go get yourself a coffee as this step will take a while. Also you can download #6
+In the cannonical documentation fashion, go get yourself a coffee as this step will take a while. Also you can download #6.
+
 ### 6. Download avbin
 
 ````bash
