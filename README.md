@@ -50,7 +50,7 @@ A. Homebrew is a package manager. Other sane operating systems (read Linux, not 
 ### 4. Installing extras through homebrew
 
 ````bash
-brew install hg
+brew install hg wget
 ````
 
 Q. What is `hg`?
@@ -68,7 +68,7 @@ In the cannonical documentation fashion, go get yourself a coffee as this step w
 ### 6. Download avbin
 
 ````bash
-curl https://github.com/downloads/AVbin/AVbin/avbin-darwin-x86-64-v8.1.tar.bz2
+wget https://github.com/downloads/AVbin/AVbin/avbin-darwin-x86-64-v8.1.tar.bz2
 ````
 
 Now unpackage the file and cd into the directory. 
