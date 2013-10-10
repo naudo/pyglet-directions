@@ -11,7 +11,7 @@ Just follow these steps (skip ones if you already have done it). More directions
 1. Install XCode through the Mac App store
 2. Install the command line tools 
 3. Install homebrew (http://brew.sh)
-4. Install extras (hg) through homebrew
+4. Install extras through homebrew
 5. Install pyglet through hg
 6. Download avbin
 7. Install avbin
@@ -50,9 +50,10 @@ A. Homebrew is a package manager. Other sane operating systems (read Linux, not 
 ### 4. Installing extras through homebrew
 
 ````bash
-brew install hg wget
+brew install wget
 ````
 
+Also download Hg from the website and install it http://mercurial.selenic.com/
 Q. What is `hg`?
 
 A. Hg is also known as mecurial, which is a similar tool to git that the pyglet developers chose to use instead.
